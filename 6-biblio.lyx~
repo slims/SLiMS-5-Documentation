@@ -65,8 +65,8 @@ Modul ini berisi menu Add New Bibliography (membuat data bibliografi/katalog
  baru), Bibliographic List (melihat daftar bibliografi), Item List (melihat
  daftar item/kopi koleksi), Chekout Items (melihat daftar item yang sedang
  dipinjam).
- Selain itu, pada modul ini juga dilengkapi dengan copy cataloging, label
- printing, item barcode printing, import data, eksport data, item import,
+ Selain itu, pada modul ini juga dilengkapi dengan Copy Cataloging, Label
+ Printing, Item barcode printing, Import data, eksport data, item import,
  item eksport.
  Untuk melihat daftar bibliografi dilakukan dengan klik pada navigasi Bibliograp
 hy List, demikian pula jika kita ingin melihat daftar item klik pada Item
@@ -1353,6 +1353,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+\lang bahasa
 http://irspy.indexdata.com/
 \end_layout
 

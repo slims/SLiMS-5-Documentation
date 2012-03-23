@@ -81,14 +81,14 @@ Pastikan Web Server (misalnya Apache web server), MySQL database server,
  Akan lebih mudah lagi kalau PhpMyAdmin juga diinstal karena akan sangat
  membantu setup database via interface web.
  Jika anda menggunakan Windows, direkomendasikan menggunakan portable Senayan
- for Windows yang sudah terbukti stabil untuk SLiMS dan mudah diinstal dan
- di backup (cukup kopi folder).
+ for Windows yang sudah terbukti stabil untuk Senayan dan mudah diinstal
+ dan di backup (cukup kopi folder).
 \end_layout
 
 \begin_layout Standard
 
 \lang bahasa
-Instalasi SLiMS dari source lebih direkomendasikan untuk platform selain
+Instalasi Senayan dari source lebih direkomendasikan untuk platform selain
  Windows seperti GNU/Linux dan Unix karena pada platform tersebut kondisinya
  relatif lebih beragam.
  Di Unix/Linux, instalasi Web server (misal Apache), MySQL dan PHP bisa
@@ -99,7 +99,7 @@ Instalasi SLiMS dari source lebih direkomendasikan untuk platform selain
 \begin_layout Standard
 
 \lang bahasa
-SLiMS dikembangkan pada platform GNU/Linux (Zenwalk dan Ubuntu) dan sudah
+Senayan dikembangkan pada platform GNU/Linux (Zenwalk dan Ubuntu) dan sudah
  dicoba dalam skala produksi di beberapa server yang berbasis Centos Linux,
  OpenSUSE Linux, FreeBSD dan Windows.
  Pada dasarnya tidak ada masalah dengan Operating System yang digunakan.
@@ -111,7 +111,7 @@ SLiMS dikembangkan pada platform GNU/Linux (Zenwalk dan Ubuntu) dan sudah
  (contoh greensql: ).
  Tutorial implementasinya bisa dibaca di: 
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -131,7 +131,7 @@ http://hendrowicaksono.multiply.com/journal/item/54
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -170,8 +170,8 @@ Letakkan file senayan*.tar.gz ke web document root
 \begin_layout Standard
 
 \lang bahasa
-Sekarang letakkan source SLiMS pada web document root web server yang anda
- gunakan.
+Sekarang letakkan source senayan pada web document root web server yang
+ anda gunakan.
  Contoh: saya menggunakan Ubuntu Linux dan menginstall Apache Webserver
  dari source code, web document root nya terletak di /usr/local/apache/htdocs.
  Sedangkan di OpenSUSE terletak di /srv/www.
@@ -1009,7 +1009,7 @@ Mulai stable 15 (Matoa) untuk menampilkan data bibliografi di OPAC SLiMS,
 \begin_layout Standard
 
 \lang bahasa
-SLiMS sudah bisa digunakan.
+Senayan sudah bisa digunakan.
 \end_layout
 
 \begin_layout Standard

@@ -145,29 +145,31 @@ Update di Senayan5 (MERANTI):
 \end_layout
 
 \begin_layout Itemize
-Add: Template Admin dan OPAC baru
-\end_layout
-
-\begin_layout Itemize
-Add: Pengembalian cepat merekap denda
+Add: konfigurasi sysconfig.local.inc.php
 \end_layout
 
 \begin_layout Itemize
 
 \lang bahasa
-Add: Penjumlahan denda pada menu sirkulasi
+Add: template OPAC dan Admin default baru
 \end_layout
 
 \begin_layout Itemize
 
 \lang bahasa
-Add: SRU copy cataloging
+Add: pemesanan online oleh anggota
 \end_layout
 
 \begin_layout Itemize
 
 \lang bahasa
-Add: OAI/PMH
+Add: fasilitas unduh riwayat peminjaman dan koleksi yang sedang dipinjam
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: z39.50 ke lebih dari satu tujuan
 \end_layout
 
 \begin_layout Itemize
