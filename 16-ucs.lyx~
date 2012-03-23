@@ -638,7 +638,7 @@ Bibliography ini digunakan untuk mengelola data bibliografi yang sudah diada
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -646,7 +646,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/ucs-bib-list.png
-	scale 40
+	scale 30
 	rotateOrigin center
 
 \end_inset
@@ -663,51 +663,6 @@ status collapsed
 
 \lang bahasa
 Tampilan Bibliografi List
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\lang bahasa
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-
-\lang bahasa
-\begin_inset Graphics
-	filename image/ucs-node-remov.png
-	scale 40
-	rotateOrigin center
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\lang bahasa
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\lang bahasa
-Nodes Data Removal
 \end_layout
 
 \end_inset

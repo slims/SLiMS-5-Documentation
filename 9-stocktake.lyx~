@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -65,8 +65,8 @@ I have always imagined that Paradise will be a kind of library.
 \begin_layout Standard
 
 \lang bahasa
-Modul Stock Take merupakan fasilitas yang ada di SLiMS untuk membantu para
- pustakawan melakukan kegiatan stock opname.
+Modul Stock Take merupakan fasilitas yang ada di Senayan untuk membantu
+ para pustakawan melakukan kegiatan stock opname.
  Ketika proses stock opname dimulai, semua koleksi kecuali yang sedang dipinjam
  (berstatus on loan) akan dianggap hilang, lalu masuk ke dalam menu current
  lost item sampai koleksi yang bersangkutan di cek pada proses stock take.

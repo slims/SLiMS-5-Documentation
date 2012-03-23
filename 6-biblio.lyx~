@@ -65,8 +65,8 @@ Modul ini berisi menu Add New Bibliography (membuat data bibliografi/katalog
  baru), Bibliographic List (melihat daftar bibliografi), Item List (melihat
  daftar item/kopi koleksi), Chekout Items (melihat daftar item yang sedang
  dipinjam).
- Selain itu, pada modul ini juga dilengkapi dengan Copy Cataloging, Label
- Printing, Item barcode printing, Import data, eksport data, item import,
+ Selain itu, pada modul ini juga dilengkapi dengan copy cataloging, label
+ printing, item barcode printing, import data, eksport data, item import,
  item eksport.
  Untuk melihat daftar bibliografi dilakukan dengan klik pada navigasi Bibliograp
 hy List, demikian pula jika kita ingin melihat daftar item klik pada Item
@@ -96,7 +96,7 @@ hy.
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -238,6 +238,58 @@ Topics : Topic/subyek.
 \begin_layout Itemize
 
 \lang bahasa
+Classification: Merupakan fitur untuk mengambil nomor kelas dari master
+ file.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-class.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Classification
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
 Language : Pilihan bahasa dokumen 
 \end_layout
 
@@ -318,7 +370,7 @@ Jika file dipilih akses "public" dan dicek group mana saja yang bisa mengakses,
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -431,7 +483,7 @@ Fitur Promote to Homepage  berkaitan dengan konfigurasi Show Promoted Titles
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -492,7 +544,7 @@ Setelah data kita isikan, klik Save.
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -693,7 +745,7 @@ Edit bagian yang perlu, kemudian klik Save Change.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -744,7 +796,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/biblio-edit.png
-	scale 80
+	scale 30
 
 \end_inset
 
@@ -825,7 +877,7 @@ Edit bagian yang perlu, kemudian klik Save Change.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -967,30 +1019,23 @@ Checkout item
 Copy Cataloging
 \end_layout
 
+\begin_layout Standard
+Copy cataloging pada SLiMS mengoptimalkan 3 layanan tukar menukar data.
+ Z39.50 SRU dengan memanfaatkan xml yang berformat MODS, Z 39.50 yang memanfaatkan
+ YAZ serta P2P service yang memanfaatkan XML antar SLiMS.
+\end_layout
+
 \begin_layout Subsection
 
 \lang bahasa
-Menu P2P Service
+Z 39.50 SRU: Search/Retrieval via URL
 \end_layout
 
 \begin_layout Standard
-P2P Service merupakan fitur baru yang ada mulai Senayan3Stable14.
- Konsep dasar dari fitur ini adalah berbagi data bibliografi antar pengguna
- Senayan.
- P2P Service memanfaatkan fasilitas xml yang telah ada di senayan untuk
- berbagi koleksi bibligrafi.
- Untuk penggunaan P2P Service ini, cukup dengan klik p2p service, isikan
- kata kunci dan pilih lokasi/url/perpustakaan yang dituju untuk pencarian.
- Jika sistem menemukan koleksi yang dicari, maka akan ditampilkan.
-\end_layout
-
-\begin_layout Standard
-Pencarian pada P2P Service ini dapat menggunakan pencarian spesifik model
- Boolean.
- Sebagai contoh isbn=0-596-00108-8 AND title=bazaar.
- Selain ISBN dan Title, pencarian detail dapat juga menggunakan author,
- GMD dan subject.
- 
+Merupakan fitur yang digunakan untuk proses copycataloging sebagaimana pada
+ Z 39.50 Service.
+ Perbedaan dari sisi pengguna, penggunaan SRU tidak mensyaratkan instalasi
+ YAZ.
 \end_layout
 
 \begin_layout Standard
@@ -1000,15 +1045,15 @@ Pencarian pada P2P Service ini dapat menggunakan pencarian spesifik model
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 
 \lang bahasa
 \begin_inset Graphics
-	filename image/biblio-p2p.png
-	scale 50
+	filename image/bib-sru.png
+	scale 40
 
 \end_inset
 
@@ -1023,7 +1068,7 @@ status collapsed
 \begin_layout Plain Layout
 
 \lang bahasa
-P2P Service 
+Proses copycataloging z39.50 SRU 
 \end_layout
 
 \end_inset
@@ -1034,103 +1079,6 @@ P2P Service
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-
-\lang bahasa
-P2P dapat dikonfigurasi melalui perubahan pada file sysconfig.inc.php sebagaimana
- contoh berikut:
-\end_layout
-
-\begin_layout Standard
-
-\lang bahasa
-Cari baris seperti di bawah ini,
-\end_layout
-
-\begin_layout Standard
-
-\lang bahasa
-\begin_inset Box Boxed
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status collapsed
-
-\begin_layout Plain Layout
-
-\lang bahasa
-$sysconf['p2pserver'][1] = array('uri' => 'http://127.0.0.1/senayan3-stable14',
- 'name' => 'SLiMS Library');
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Kemudian edit sesuai dengan alamat dan nama Perpustakaan yang dituju.
- P2P dapat juga membaca dirinya sendiri.
- Jika ada lebih dari satu alamat yang dituju, maka dapat ditambahkan baris
- di bawahnya, sebagaimana contoh berikut:
-\end_layout
-
-\begin_layout Standard
-
-\lang bahasa
-\begin_inset Box Boxed
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status collapsed
-
-\begin_layout Plain Layout
-
-\lang bahasa
-$sysconf['p2pserver'][1] = array('uri' => 'http://127.0.0.1/slims', 'name'
- => 'SLiMS Library');
-\end_layout
-
-\begin_layout Plain Layout
-
-\lang bahasa
-$sysconf['p2pserver'][2] = array('uri' => 'http://perpustakaan.diknas.go.id',
- 'name' => 'Perpustakaan Diknas');
-\end_layout
-
-\begin_layout Plain Layout
-
-\lang bahasa
-$sysconf['p2pserver'][3] = array('uri' => 'http://lib.geologi.ugm.ac.id/lib',
- 'name' => 'Perpustakaan Geologi UGM');
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang bahasa
-Alamat OPAC Senayan yang hendak diambil datanya menggunakan P2P haruslah
- mengaktifkan fitur xml.
- Fitur ini dapat diaktifkan dalam modul System.
- P2P hanya bisa dilakukan pada Senayan mulai stable-13.
 \end_layout
 
 \begin_layout Subsection
@@ -1353,7 +1301,6 @@ status collapsed
 
 \begin_layout Plain Layout
 
-\lang bahasa
 http://irspy.indexdata.com/
 \end_layout
 
@@ -1366,6 +1313,172 @@ http://irspy.indexdata.com/
  
 \end_layout
 
+\begin_layout Subsection
+
+\lang bahasa
+Menu P2P Service
+\end_layout
+
+\begin_layout Standard
+P2P Service merupakan fitur baru yang ada mulai Senayan3Stable14.
+ Konsep dasar dari fitur ini adalah berbagi data bibliografi antar pengguna
+ Senayan.
+ P2P Service memanfaatkan fasilitas xml yang telah ada di senayan untuk
+ berbagi koleksi bibligrafi.
+ Untuk penggunaan P2P Service ini, cukup dengan klik p2p service, isikan
+ kata kunci dan pilih lokasi/url/perpustakaan yang dituju untuk pencarian.
+ Jika sistem menemukan koleksi yang dicari, maka akan ditampilkan.
+\end_layout
+
+\begin_layout Standard
+Pencarian pada P2P Service ini dapat menggunakan pencarian spesifik model
+ Boolean.
+ Sebagai contoh isbn=0-596-00108-8 AND title=bazaar.
+ Selain ISBN dan Title, pencarian detail dapat juga menggunakan author,
+ GMD dan subject.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-p2p.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+P2P Service 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+P2P dapat dikonfigurasi melalui perubahan pada file sysconfig.inc.php sebagaimana
+ contoh berikut:
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Cari baris seperti di bawah ini,
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang bahasa
+$sysconf['p2pserver'][1] = array('uri' => 'http://127.0.0.1/senayan3-stable14',
+ 'name' => 'SLiMS Library');
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Kemudian edit sesuai dengan alamat dan nama Perpustakaan yang dituju.
+ P2P dapat juga membaca dirinya sendiri.
+ Jika ada lebih dari satu alamat yang dituju, maka dapat ditambahkan baris
+ di bawahnya, sebagaimana contoh berikut:
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang bahasa
+$sysconf['p2pserver'][1] = array('uri' => 'http://127.0.0.1/slims', 'name'
+ => 'SLiMS Library');
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+$sysconf['p2pserver'][2] = array('uri' => 'http://perpustakaan.diknas.go.id',
+ 'name' => 'Perpustakaan Diknas');
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+$sysconf['p2pserver'][3] = array('uri' => 'http://lib.geologi.ugm.ac.id/lib',
+ 'name' => 'Perpustakaan Geologi UGM');
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Alamat OPAC Senayan yang hendak diambil datanya menggunakan P2P haruslah
+ mengaktifkan fitur xml.
+ Fitur ini dapat diaktifkan dalam modul System.
+ P2P hanya bisa dilakukan pada Senayan mulai stable-13.
+\end_layout
+
 \begin_layout Section
 
 \lang bahasa
@@ -1376,7 +1489,7 @@ Menu Labels Printing
 
 \lang bahasa
 Dengan menu ini kita dapat mencetak label koleksi berdasar data bibliografi
- yang sudah dimasukkan dalam Senayan.
+ yang sudah dimasukkan dalam SLiMS.
  Berikut urutan mencetak label menggunakan menu Labels Printing: 
 \end_layout
 
@@ -1550,7 +1663,7 @@ Menu Item Barcodes Printing
 
 \lang bahasa
 Menu ini sebagai sarana mencetak barcode berdasar data item yang sudah dimasukka
-n dalam Senayan.
+n dalam SLiMS.
  Berikut urutan mencetak barcode menggunakan menu Item Barcodes Printing:
  
 \end_layout
@@ -1723,7 +1836,7 @@ Menu Import Data
 
 \lang bahasa
 Menu import data ini digunakan untuk mengambil data bibliografi dari luar
- senayan dalam format csv (atau dari database Senayan yang sudah di eksport
+ SLiMS dalam format csv (atau dari database Senayan yang sudah di eksport
  dalam bentuk .csv), kemudian dimasukkan dalam program aplikasi Senayan.
  
 \end_layout
@@ -1739,7 +1852,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
-http://senayan.diknas.go.id/download/docs/tutorial-athen2senayan.pdf
+http://slims.web.id/download/docs/tutorial-athen2senayan.pdf
 \end_layout
 
 \end_inset
@@ -1754,7 +1867,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
-http://senayan.diknas.go.id/download/docs/tutorial-isis2senayan.pdf
+http://slims.web.id/download/docs/tutorial-isis2senayan.pdf
 \end_layout
 
 \end_inset
@@ -1769,11 +1882,11 @@ Selain itu Tim Pengembang Senayan juga menyediakan tool online untuk konversi
  senayan.
  Tool ini dapat anda akses di 
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
-http://senayan.diknas.go.id/senayan-converter/
+http://slims.web.id/senayan-converter/
 \end_layout
 
 \end_inset
@@ -2006,7 +2119,11 @@ Item Eksport
 \end_layout
 
 \begin_layout Standard
-Format hasil eksport data item pada Senayan adalah sebagai berikut:
+Format hasil eksport data item pada 
+\lang bahasa
+SLiMS
+\lang english
+ adalah sebagai berikut:
 \end_layout
 
 \begin_layout LyX-Code
@@ -2032,7 +2149,7 @@ Format hasil eksport data item pada Senayan adalah sebagai berikut:
 \begin_layout Standard
 
 \lang bahasa
-Format diatas daat dijadikan acuan jika ingin memasukkan data .csv ke Senayan.
+Format diatas daat dijadikan acuan jika ingin memasukkan data .csv ke SLiMS.
  Caranya adalah dengan menyesuaikan format .csvnya.
 \end_layout
 
@@ -2043,8 +2160,19 @@ Item Import
 \end_layout
 
 \begin_layout Standard
-Item import digunakan untuk memasukkan data item ke database Senayan.
- Jika kegiatan ini dilakukan dari database Senayan yang satu ke Senayan
+Item import digunakan untuk memasukkan data item ke database 
+\lang bahasa
+SLiMS
+\lang english
+.
+ Jika kegiatan ini dilakukan dari database 
+\lang bahasa
+SLiMS
+\lang english
+ yang satu ke 
+\lang bahasa
+SLiMS
+\lang english
  yang lain, maka item import dilakukan setelah bibliography import.
  Artinya item akan menyesuaikan data bibliografi yang telah diimport lebih
  dahulu.
@@ -2058,7 +2186,11 @@ Biblio Custom Field
 \begin_layout Standard
 Fitur ini digunakan untuk menambahkan Field baru pada Bibliografi, dimana
  field ini dibutuhkan oleh perpustakaan yang menggunakan Senayan namun belum
- tersedia dalam field standard Senayan.
+ tersedia dalam field standard 
+\lang bahasa
+SLiMS
+\lang english
+.
  
 \end_layout
 
@@ -2116,8 +2248,12 @@ Berikutnya anda harus merubah sesuai dengan kebutuhan field perpustakaan
 
 \begin_layout Itemize
 Langkah berikutnya adalah membuat field librarian pada tabel biblio_custom.
- Tabel biblio custom sudah ada jika kita menginstall senayan3-stable14 (Seulanga
-), atau akan terbuat jika dilakukan upgrade senayan ke senayan3-stable14
+ Tabel biblio custom sudah ada jika kita menginstall minimal Senayan3-stable14
+ (Seulanga), atau akan terbuat jika dilakukan upgrade 
+\lang bahasa
+SLiMS
+\lang english
+ ke senayan3-stable14
 \end_layout
 
 \begin_layout Itemize

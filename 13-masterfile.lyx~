@@ -1,4 +1,4 @@
-#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -103,8 +103,51 @@ Author* Diisikan dengan nama pengarang dan jenis pengarang (pribadi atau
 \begin_layout Itemize
 
 \lang bahasa
-Subject* Diisikan dengan topik/subyek dari data koleksi yang kita masukkan.
+Subject* Diisikan dengan topik/subyek, kode klasifikasi, tipe subjek, authority
+ files dari data koleksi yang kita masukkan.
  
+\end_layout
+
+\begin_layout Quote
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename image/master-subjec-new.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Master File-Subject
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -165,6 +208,69 @@ Frequency: Diisi dengan kala/frekwensi terbit terbitan berseri.
 \lang bahasa
 *) Publisher, Author dan Subject selain dapat diisikan lewat Master File
  juga dapat diisikan saat mengisi data bibliografi.
+\end_layout
+
+\begin_layout Quote
+
+\lang bahasa
+Pada Senayan3-Stable15/Matoa ada fitur baru yang dikelompokkan pada Peralatan.
+ Fitur tersebut adalah Orphaned Author dan Orphaned Subject.
+\end_layout
+
+\begin_layout Quote
+
+\lang bahasa
+Kedua fitur ini digunakan untuk memfilter pengarang/author serta subyek
+ yang ada dalam database SLiMS, namun tidak digunakan.
+ Ketika telah difilter dengan cara klik Orphaned Author atau Orphaned Subject,
+ akan muncul daftar subyek atau pengarang yang tidak digunakan.
+ Jika anda ingin menghapus, silakan pilih beberapa atau semua kemudian Delete.
+\end_layout
+
+\begin_layout Quote
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename image/master-orphaned.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Fitur Orphaned
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body

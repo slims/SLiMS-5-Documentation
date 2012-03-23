@@ -45,7 +45,7 @@
 \begin_layout Title
 
 \lang bahasa
-Manual Senayan versi 4
+Manual Senayan versi #5
 \begin_inset Newline newline
 \end_inset
 
@@ -66,6 +66,18 @@ ditulis dengan LyX 1.6.5
 \end_inset
 
 (MERANTI)
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang bahasa
+website resmi SLiMS: http://slims.web.id
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -145,55 +157,29 @@ Update di Senayan5 (MERANTI):
 \end_layout
 
 \begin_layout Itemize
-Add: konfigurasi sysconfig.local.inc.php
+Add: Template Admin dan OPAC baru
+\end_layout
+
+\begin_layout Itemize
+Add: Pengembalian cepat merekap denda
 \end_layout
 
 \begin_layout Itemize
 
 \lang bahasa
-Add: template OPAC dan Admin default baru
+Add: Penjumlahan denda pada menu sirkulasi
 \end_layout
 
 \begin_layout Itemize
 
 \lang bahasa
-Add: pemesanan online oleh anggota
+Add: SRU copy cataloging
 \end_layout
 
 \begin_layout Itemize
 
 \lang bahasa
-Add: fasilitas unduh riwayat peminjaman dan koleksi yang sedang dipinjam
-\end_layout
-
-\begin_layout Itemize
-
-\lang bahasa
-Add: z39.50 ke lebih dari satu tujuan
-\end_layout
-
-\begin_layout Itemize
-
-\lang bahasa
-Add: Bahasa Bengali
-\end_layout
-
-\begin_layout Itemize
-
-\lang bahasa
-Add: orphan author dan orphan subyek
-\end_layout
-
-\begin_layout Itemize
-
-\lang bahasa
-Add: additional e-mail recipients for library administrator
-\end_layout
-
-\begin_layout Itemize
-
-\lang bahasa
-Add: peringatan status keanggotaan terlambat pada Visitor Counter
+Add: OAI/PMH
 \end_layout
 
 \begin_layout Standard

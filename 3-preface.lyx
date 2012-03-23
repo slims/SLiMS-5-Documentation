@@ -208,6 +208,12 @@ Detail record juga tersedia format XML (Extensible Markup Language) standar
 \begin_layout Itemize
 
 \lang bahasa
+Fitur Z39.50, p2p service dan SRU untuk copycataloging dari berbagai perpustakaan
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
 Manajemen data bibliografi yang efisien meminimalisasi pengulangan data.
  
 \end_layout
@@ -299,7 +305,7 @@ SLiMS mendukung beragam format bahasa termasuk bahasa yang tidak menggunakan
 
 \begin_layout Itemize
 Menyediakan berbagai bahasa pengantar (Indonesia, Inggris, Spanyol, Arab,
- Jerman).
+ Jerman, Bengali, Thailand).
 \end_layout
 
 \begin_layout Itemize
@@ -311,7 +317,7 @@ Counter Pengunjung perpustakaan
 \end_layout
 
 \begin_layout Itemize
-Member Area untuk melihat koleksi sedang dipinjam oleh anggota
+Member Area untuk melihat dan mengunduh koleksi sedang dan pernah dipinjam.
 \end_layout
 
 \begin_layout Itemize

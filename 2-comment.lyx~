@@ -62,14 +62,28 @@ Informasi lengkap rilis tiap versi ada di
 status collapsed
 
 \begin_layout Plain Layout
+
 http://slims.web.id/web/?q=node/1
 \end_layout
 
 \end_inset
 
 .
- Jika anda ingin mengetahui sejarah pengembangan SLiMS, silakan buka 
-\begin_inset Flex URL
+ Jika anda ingin mengetahui sejarah pengembangan SLiMS, silakan buka:
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
 status collapsed
 
 \begin_layout Plain Layout
@@ -79,28 +93,42 @@ http://id.wikipedia.org/wiki/Senayan_%28perangkat_lunak%29
 
 \end_inset
 
-.
- 
+
 \end_layout
 
-\begin_layout Quotation
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
 
 \lang bahasa
 Setelah Senayan3-Stable15, SLiMS langsung melompat ke SLiMS-5 yang menggunakan
  codename MERANTI.
- Tumbuhan kayu meranti populasinya kian mendekati kepunahan.
+ Meranti merupakan tumbuhan kayu yang populasinya kian mendekati kepunahan.
  Meranti yang merupakan spesies dari famili Dipterocarpaceae masuk dalam
  penetapan spesies prioritas konservasi Lembaga Ilmu Pengetahuan Indonesia
  atau LIPI.
 \end_layout
 
-\begin_layout Quotation
+\begin_layout Plain Layout
 
 \lang bahasa
-Peneliti dari Pusat Penelitian Biologi LIPI, Dr Tukirin Partomiharjo, Senin
- (27/9), mengatakan, meranti bersama tumbuhan lain dalam famili Dipterocarpaceae
- seperti kayu kapur, kruing, dan bengkirai menjadi spesies yang paling banyak
- dimanfaatkan manusia.
+Peneliti dari Pusat Penelitian Biologi LIPI, Dr Tukirin Partomiharjo, mengatakan
+, meranti bersama tumbuhan lain dalam famili Dipterocarpaceae seperti kayu
+ kapur, kruing, dan bengkirai menjadi spesies yang paling banyak dimanfaatkan
+ manusia.
  Namun, pengeksplorasian besar-besaran terhadap tumbuhan ini membuat populasinya
  terus berkurang.
 \begin_inset Foot
@@ -114,6 +142,22 @@ unah
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Secara fisik, kayu Meranti tegak menjulang tinggi dengan dahan-dahannya.
+ Kayu ini tergolong bernilai tinggi dan langka, bahkan nyaris punah.
+ Sebagaimana paparan di atas, SDC berharap SLiMS-5 akan dapat menjulang
+ tinggi dan memberi manfaat bagi perkembangan perpustakaan, khususnya di
+ Indonesia.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -130,7 +174,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename image/Meranti-Tree03.png
-	scale 30
+	scale 40
 
 \end_inset
 
@@ -306,6 +350,42 @@ Putu Laxman Pendit:
  TOP MARKOTOP! Semoga SLiMS dan Komunitasnya bisa terus jadi bukti bahwa
  berbuat baik itu baik, tetapi lebih baik lagi kalau berbuat baik untuk
  orang banyak! :-))
+\end_layout
+
+\begin_layout Section
+Rekomendasi URL terkait SLiMS
+\end_layout
+
+\begin_layout Itemize
+http://slims.web.id/web/?q=faq 
+\end_layout
+
+\begin_layout Itemize
+http://slims.web.id/download/docs/ (berbagai dokumentasi) 
+\end_layout
+
+\begin_layout Itemize
+http://slims.web.id/forum (Forum Diskusi Komunitas SLiMS)
+\end_layout
+
+\begin_layout Itemize
+http://slims.web.id/demo (Demo SLiMS online)
+\end_layout
+
+\begin_layout Itemize
+https://www.facebook.com/groups/senayan.slims/ (Group Facebook SLiMS)
+\end_layout
+
+\begin_layout Itemize
+https://github.com/slims/ 
+\end_layout
+
+\begin_layout Itemize
+http://jogjalib.net (Komunitas SLiMS Jogja)
+\end_layout
+
+\begin_layout Itemize
+http://
 \end_layout
 
 \end_body
