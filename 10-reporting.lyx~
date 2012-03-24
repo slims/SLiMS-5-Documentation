@@ -96,7 +96,7 @@ Berisi informasi total judul koleksi, total item, total item yang sedang
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -156,7 +156,7 @@ Berisi informasi seputar peminjaman.
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -214,7 +214,7 @@ Berisi informasi keanggotaan, yaitu: total anggota yang terdaftar, total
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -274,7 +274,7 @@ Mulai Senayan3-stable14, ketiga jenis laporan ini dilengkapi dengan fitur
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -317,7 +317,7 @@ Show in chart/plot
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -356,7 +356,7 @@ Tampilan Pie
 \begin_layout Section
 
 \lang bahasa
-Customs Reccapitulations
+Customs Recapitulations
 \end_layout
 
 \begin_layout Standard
@@ -387,7 +387,7 @@ status open
 \lang bahasa
 \begin_inset Graphics
 	filename image/rep_classrep.png
-	scale 40
+	scale 30
 	rotateOrigin center
 
 \end_inset
@@ -419,8 +419,8 @@ Class Recap
 \begin_layout Standard
 
 \lang bahasa
-Pada modul Report di Senayan3-Stable10 ini, ada pengembangan untuk memudahkan
- pengguna senayan dalam membuat sebuah modul laporan baru.
+Pada modul Report mulai Senayan3-Stable10, ada pengembangan untuk memudahkan
+ pengguna Senayan dalam membuat sebuah modul laporan baru.
 \end_layout
 
 \begin_layout Standard
@@ -452,10 +452,25 @@ customs_report_list.inc.php
  Pada file inilah modifikasi dan penambahan report bisa dilakukan.
 \end_layout
 
+\begin_layout Standard
+
+\lang bahasa
+Custom Recapitulation menyediakan fasilitas Print Current Page untuk mencetak
+ laporan, serta 
+\begin_inset Quotes eld
+\end_inset
+
+Export to spreadsheet format
+\begin_inset Quotes erd
+\end_inset
+
+ untuk mendapatkan laporan dalam bentuk spreadsheet.
+\end_layout
+
 \begin_layout Section
 
 \lang bahasa
-Titles
+Titles List
 \end_layout
 
 \begin_layout Standard
@@ -489,7 +504,7 @@ Show More Filter Options
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -523,6 +538,21 @@ Laporan Judul
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Fitur ini juga mengediakan fasilitas unduh file dalam bentuk spreadsheet.
+ File dapat didapatkan dengan klik 
+\begin_inset Quotes eld
+\end_inset
+
+Export to spreadsheet format
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
@@ -573,7 +603,7 @@ Hide Filter Option
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -630,7 +660,7 @@ Merupakan laporan yang menginformasikan item, title dan berapakali item
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -689,7 +719,7 @@ Merupakan laporan peminjaman berdasar Klasifikasi.
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -725,6 +755,21 @@ Loan by Class
 
 \end_layout
 
+\begin_layout Standard
+
+\lang bahasa
+Fitur ini juga mengediakan fasilitas unduh file dalam bentuk spreadsheet.
+ File dapat didapatkan dengan klik 
+\begin_inset Quotes eld
+\end_inset
+
+Export to spreadsheet format
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Section
 
 \lang bahasa
@@ -748,7 +793,7 @@ Berisi laporan/daftar anggota perpustakaan.
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -784,6 +829,21 @@ Laporan Member List
 
 \end_layout
 
+\begin_layout Standard
+
+\lang bahasa
+Fitur ini juga mengediakan fasilitas unduh file dalam bentuk spreadsheet.
+ File dapat didapatkan dengan klik 
+\begin_inset Quotes eld
+\end_inset
+
+Export to spreadsheet format
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Section
 
 \lang bahasa
@@ -811,7 +871,7 @@ status open
 \lang bahasa
 \begin_inset Graphics
 	filename image/rep-hystori.png
-	scale 50
+	scale 40
 
 \end_inset
 
@@ -881,7 +941,7 @@ status open
 \lang bahasa
 \begin_inset Graphics
 	filename image/rep-loanhys.png
-	scale 50
+	scale 30
 
 \end_inset
 
@@ -1004,7 +1064,7 @@ status open
 \lang bahasa
 \begin_inset Graphics
 	filename image/rep_staffactv.png
-	scale 50
+	scale 45
 	rotateOrigin centerTop
 
 \end_inset

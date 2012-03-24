@@ -1,4 +1,4 @@
-#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -60,6 +60,103 @@ Knowledge is free at the library.
 \end_layout
 
 \begin_layout Section
+OAI-PMH Service
+\end_layout
+
+\begin_layout Standard
+OAI-PMH hadir di SLiMS sejak SLiMS-5.
+ Dengan fasilitas ini, maka OAI Server yang berkepentingan dengan data perpustak
+aan yang menggunakan SLiMS dapat mengambil data (memanen).
+ Misalnya dalam rangka bergabung dengan portal Garuda (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://garuda.kemdiknas.go.id
+\end_layout
+
+\end_inset
+
+).
+ Perpustakaan pengguna SLiMS, dapat mengupgrade SLiMSnya ke SLiMS-5 sehingga
+ server Garuda dapat dengan mudah mengambil data secara otomatis.
+\end_layout
+
+\begin_layout Standard
+Cara penggunaan service ini adalah:
+\end_layout
+
+\begin_layout Enumerate
+Install/Upgrade SLiMS anda dengan SLiMS-5 Meranti
+\end_layout
+
+\begin_layout Enumerate
+Pastikan OPAC SLiMS dapat diakses melalui internet
+\end_layout
+
+\begin_layout Enumerate
+Kirimkan url service OAI-PMH kepada yang berkepentingan.
+ Url tersebut adalah: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+http://namadomain
+slims
+\lang english
+/oai.php?verb=ListRecords&metadataPrefix=oai_dc
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/tips-oai-detail.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+URL OAI-PMH SLiMS
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 
 \lang bahasa
 Pengaturan Ukuran barcode, label, kartu anggota dan nota peminjaman
@@ -80,7 +177,7 @@ status open
 
 \end_inset
 
-.
+ (sesuaikan dengan versi SliMS yang anda pakai)
 \end_layout
 
 \begin_layout Standard
@@ -4618,7 +4715,6 @@ status open
 
 \begin_layout Plain Layout
 
-\lang bahasa
 http://irspy.indexdata.com/
 \end_layout
 
@@ -4637,7 +4733,6 @@ status open
 
 \begin_layout Plain Layout
 
-\lang bahasa
 catalogue.abertay.ac.uk:10790/Voyager
 \end_layout
 
