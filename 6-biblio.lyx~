@@ -184,13 +184,6 @@ Bagian ini diisikan dengan Pola/Pattern, From dan To.
  paket dalam jumlah banyak, misalnya perpustakaan sekolah.
 \end_layout
 
-\begin_layout Standard
-
-\lang bahasa
-Jika pola diisi B00, From di isi 1, to diisi 5 maka hasilnya akan menjadi
- B01,B02,B03,B04,B05.
-\end_layout
-
 \end_deeper
 \begin_layout Itemize
 
