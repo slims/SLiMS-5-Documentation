@@ -150,11 +150,10 @@ unah
 \begin_layout Standard
 
 \lang bahasa
-Secara fisik, kayu Meranti tegak menjulang tinggi dengan dahan-dahannya.
+Secara fisik, kayu Meranti tegak menjulang tinggi dengan banyak dahan.
  Kayu ini tergolong bernilai tinggi dan langka, bahkan nyaris punah.
- Sebagaimana paparan di atas, SDC berharap SLiMS-5 akan dapat menjulang
- tinggi dan memberi manfaat bagi perkembangan perpustakaan, khususnya di
- Indonesia.
+ SDC berharap SLiMS-5 akan dapat menjulang tinggi dan memberi manfaat bagi
+ perkembangan banyak perpustakaan, khususnya di Indonesia.
  
 \end_layout
 
@@ -172,7 +171,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename image/Meranti-Tree03.png
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -200,24 +199,6 @@ status collapsed
 \begin_layout Plain Layout
 
 http://www.towermaster-online.com/images/enviropole/Meranti-Tree03.jpg
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang bahasa
-Tentang Meranti:
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://himpalaunas.com/artikel/lingkungan/2010/09/28/wah-pohon-meranti-terancam-p
-unah
 \end_layout
 
 \end_inset
@@ -351,40 +332,162 @@ Putu Laxman Pendit:
  orang banyak! :-))
 \end_layout
 
+\begin_layout Itemize
+
+\noun on
+Daniel D'esposito (HURIDOCS Executive Director )
+\noun default
+: This is my favorite, I came across it by chance in Jakarta last month,
+ its made by Indonesian developers and used by NGOs and the NHRI.
+ But it’s unknown in the rest of the world.
+ I am hoping it will be the winner so we can promote it like crazy.
+ (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+http://www2.law.uu.nl/english/sim/library/ecchrd/32/OpenSource.pdf
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
 \begin_layout Section
 Rekomendasi URL terkait SLiMS
 \end_layout
 
 \begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
 http://slims.web.id/web/?q=faq 
 \end_layout
 
-\begin_layout Itemize
-http://slims.web.id/download/docs/ (berbagai dokumentasi) 
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-http://slims.web.id/forum (Forum Diskusi Komunitas SLiMS)
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+http://slims.web.id/download/docs/
+\end_layout
+
+\end_inset
+
+ (berbagai dokumentasi) 
 \end_layout
 
 \begin_layout Itemize
-http://slims.web.id/demo (Demo SLiMS online)
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+http://slims.web.id/forum
+\end_layout
+
+\end_inset
+
+ (Forum Diskusi Komunitas SLiMS)
 \end_layout
 
 \begin_layout Itemize
-https://www.facebook.com/groups/senayan.slims/ (Group Facebook SLiMS)
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+http://slims.web.id/demo
+\end_layout
+
+\end_inset
+
+ (Demo SLiMS online)
 \end_layout
 
 \begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+https://www.facebook.com/groups/senayan.slims/
+\end_layout
+
+\end_inset
+
+ (Group Facebook SLiMS)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
 https://github.com/slims/ 
 \end_layout
 
-\begin_layout Itemize
-http://jogjalib.net (Komunitas SLiMS Jogja)
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-http://
+Komunitas SLiMS: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+http://jogjalib.net
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+http://pangkeplib.net
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+http://primurlib.net
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+http://ambonlib.net
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+http://makassarlib.net
+\end_layout
+
+\end_inset
+
+, 
 \end_layout
 
 \end_body

@@ -78,12 +78,10 @@ website resmi SLiMS: http://slims.web.id
 \end_inset
 
 
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-\align center
 
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -95,8 +93,7 @@ status collapsed
 
 \lang bahasa
 \begin_inset Graphics
-	filename image/senayan2_logtypekecil.png
-	scale 400
+	filename image/tarsius.png
 
 \end_inset
 
@@ -161,7 +158,7 @@ Add: Template Admin dan OPAC baru
 \end_layout
 
 \begin_layout Itemize
-Add: Pengembalian cepat merekap denda
+Add: New Feature modification of Quick return
 \end_layout
 
 \begin_layout Itemize
@@ -189,8 +186,17 @@ Catatan Penting:
 \end_layout
 
 \begin_layout Standard
-File sysconfig.local.inc.php, merupakan file yang berfungsi sama konfigurasi
- sama dengan sysconfig.inc.php.
+File 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+sysconfig.local.inc.php
+\end_layout
+
+\end_inset
+
+, merupakan file yang berfungsi sama konfigurasi sama dengan sysconfig.inc.php.
  Namun demikian, untuk perubahan di local, disarankan mengubah file sysconfig.loc
 al.inc.php saja.
  Logikanya, jika ada dua konfigurasi sama di kedua file tersebut, maka yang
@@ -202,11 +208,51 @@ Misal:
 \end_layout
 
 \begin_layout Standard
-Pada sysconfig.inc.php ada baris $sysconf['ucs']['enable'] = false;
+Pada 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+sysconfig.inc.php
+\end_layout
+
+\end_inset
+
+ ada baris 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+$sysconf['ucs']['enable'] = false;
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Pada sysconfig.local.inc.php ada baris $sysconf['ucs']['enable'] = true;
+Pada 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+sysconfig.local.inc.php
+\end_layout
+
+\end_inset
+
+ ada baris 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+$sysconf['ucs']['enable'] = true;
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

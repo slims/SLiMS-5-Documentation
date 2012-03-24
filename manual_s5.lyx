@@ -5,6 +5,9 @@
 \textclass scrbook
 \begin_preamble
 \date{}
+\usepackage{watermark}
+\watermark{\centering \put(0,-700){\includegraphics[width=
+\textwidth]{image/logoslims1.png}} }
 \end_preamble
 \options a4
 \use_default_options true

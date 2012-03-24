@@ -245,16 +245,6 @@ filename "15-presensi.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "16-ucs.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
 filename "17-tipstrick.lyx"
 
 \end_inset
