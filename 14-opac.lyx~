@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -119,7 +119,7 @@ status open
 
 \lang bahasa
 \begin_inset Graphics
-	filename image/template_default.png
+	filename image/opac.png
 	scale 40
 
 \end_inset

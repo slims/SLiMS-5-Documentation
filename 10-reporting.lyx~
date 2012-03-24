@@ -387,7 +387,7 @@ status open
 \lang bahasa
 \begin_inset Graphics
 	filename image/rep_classrep.png
-	scale 30
+	scale 40
 	rotateOrigin center
 
 \end_inset
@@ -811,7 +811,7 @@ status open
 \lang bahasa
 \begin_inset Graphics
 	filename image/rep-hystori.png
-	scale 40
+	scale 50
 
 \end_inset
 
@@ -881,7 +881,7 @@ status open
 \lang bahasa
 \begin_inset Graphics
 	filename image/rep-loanhys.png
-	scale 30
+	scale 50
 
 \end_inset
 
@@ -1004,7 +1004,7 @@ status open
 \lang bahasa
 \begin_inset Graphics
 	filename image/rep_staffactv.png
-	scale 45
+	scale 50
 	rotateOrigin centerTop
 
 \end_inset
