@@ -96,7 +96,7 @@ hy.
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -511,7 +511,7 @@ Fitur Promote to Homepage  berkaitan dengan konfigurasi Show Promoted Titles
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -567,7 +567,7 @@ Setelah data kita isikan, klik Save.
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1147,7 +1147,7 @@ status open
 \begin_layout Plain Layout
 
 \lang bahasa
-Proses copycataloging z39.50 SRU 
+Proses Copycataloging Z39.50 SRU 
 \end_layout
 
 \end_inset

@@ -71,7 +71,6 @@ aan yang menggunakan SLiMS dapat mengambil data (memanen).
 \family typewriter
 http://garuda.kemdiknas.go.id
 \family default
-\lang english
 .
  Perpustakaan pengguna SLiMS, dapat mengupgrade SLiMSnya ke SLiMS-5 sehingga
  server Garuda dapat dengan mudah mengambil data secara otomatis.
@@ -90,7 +89,7 @@ Pastikan OPAC SLiMS dapat diakses melalui internet
 \end_layout
 
 \begin_layout Enumerate
-Setting fitur OAI-PMH agar bernilai 
+Setting fitur OAI-PMH agar enable bernilai 
 \begin_inset Quotes eld
 \end_inset
 
@@ -111,7 +110,7 @@ sysconfig.inc.php
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -209,6 +208,118 @@ URL OAI-PMH SLiMS
 \begin_layout Section
 
 \lang bahasa
+Integrasi OPAC SLiMS dan Drupal
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Ini adalah bagaimana-cara mengaktifkan modul slims-drupal pada PADA INSTALASI
+ DRUPAL anda:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang bahasa
+Modul drupal bisa dicoba dengan mendownload berkas modul di 
+\family typewriter
+http://slims.web.id/download/slims-drupal-1.0.zip
+\family default
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang bahasa
+Ekstrak, letakkan di direktori 
+\family typewriter
+sites/all/modules
+\family default
+ pada Drupal dan kemudian enable-kan pada 
+\family typewriter
+administrasi
+\family default
+ modul Drupal.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang bahasa
+Setelah dienable jangan lupa masuk ke URL 
+\family typewriter
+http://localhost/drupal/admin/settings/slims
+\family default
+ untuk meng-konfigurasi Base URL (instalasi SLiMS yang XML Result-nya di-enable-
+kan) record SLiMS yang akan diintegrasikan.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Modul slims-drupal adalah modul yang mengintegrasikan instalasi drupal anda
+ dengan instalasi slims.
+ dengan begitu, anda akan memiliki satu situs yang lebih komprehensif untuk
+ kebutuhan perpustakaan yang anda kelola secara online.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/tips-drupal.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+SLiMS Drupal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Selamat menikmati.
+ Jangan lupa, apabila anda menemukan kutu pada modul ini, laporkan segera
+ ke pengembang SLiMS melalui forum pengguna slims, 
+\family typewriter
+http://slims.web.id/forum
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
 Pengaturan Ukuran barcode, label, kartu anggota dan nota peminjaman
 \end_layout
 
@@ -218,7 +329,7 @@ Pengaturan Ukuran barcode, label, kartu anggota dan nota peminjaman
 Setting ukuran barcode dan label dapat dilakukan dengan melakukan editing
  file printed_settings.inc.php yang terletak di 
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
