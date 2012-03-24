@@ -111,7 +111,7 @@ sysconfig.inc.php
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -238,70 +238,60 @@ Dalam file ini akan didapatkan baris-baris kode sebagai berikut:
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 // label print settings
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 /* measurement in cm */
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $page_width = 50;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $page_height = 30;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $page_margin = 0.2;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $items_per_row = 3;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $items_margin = 0.05;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $box_width = 8;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $box_height = 3.3;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $include_header_text = 1; // change to 0 if dont want to use header in each
  label
@@ -309,7 +299,6 @@ $include_header_text = 1; // change to 0 if dont want to use header in each
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $header_text = ''; // keep empty if you want to use Library Name as a header
  text
@@ -317,70 +306,60 @@ $header_text = ''; // keep empty if you want to use Library Name as a header
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 // item barcode print settings
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 /* measurement in cm */
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcode_page_width = 50;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcode_page_height = 30;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcode_page_margin = 0.2;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcode_items_per_row = 3;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcode_items_margin = 0.1;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcode_box_width = 7;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcode_box_height = 5;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcode_include_header_text = 1; // change to 0 if dont want to use header
  in each barcode
@@ -388,7 +367,6 @@ $barcode_include_header_text = 1; // change to 0 if dont want to use header
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcode_cut_title = 50; // maximum characters in title to appear in each
  barcode.
@@ -397,7 +375,6 @@ $barcode_cut_title = 50; // maximum characters in title to appear in each
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcode_header_text = ''; // keep empty if you want to use Library Name
  as a header text
@@ -405,193 +382,154 @@ $barcode_header_text = ''; // keep empty if you want to use Library Name
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 // member card print settings
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 /* measurement in cm */
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $card_page_width = 50;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $card_page_height = 50;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $card_page_margin = 0.2;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $card_items_per_row = 2;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $card_items_margin = 0.1;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $card_box_width = 11;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $card_box_height = 6;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $card_header_text = $sysconf['library_name'];
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $card_photo_width = 3;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $card_photo_height = 3;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 // barcode generator print settings
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcodegen_page_width = 29.7;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcodegen_page_height = 21;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcodegen_page_margin = 0.2;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcodegen_items_margin = 0.05;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 $barcodegen_include_border = 0;
 \end_layout
 
 \begin_layout Standard
-
-\family typewriter
 /* Receipt Printing */ 
 \end_layout
 
 \begin_layout Standard
-
-\family typewriter
 $receipt_width = '15cm'; 
 \end_layout
 
 \begin_layout Standard
-
-\family typewriter
 $receipt_font = 'serif'; 
 \end_layout
 
 \begin_layout Standard
-
-\family typewriter
 $receipt_color = '#000'; 
 \end_layout
 
 \begin_layout Standard
-
-\family typewriter
 $receipt_margin = '5px'; 
 \end_layout
 
 \begin_layout Standard
-
-\family typewriter
 $receipt_padding = '5px'; 
 \end_layout
 
 \begin_layout Standard
-
-\family typewriter
 $receipt_border = '1px dashed #000'; 
 \end_layout
 
 \begin_layout Standard
-
-\family typewriter
 $receipt_fontSize = '7pt'; 
 \end_layout
 
 \begin_layout Standard
-
-\family typewriter
 $receipt_header_fontSize = '8pt'; 
 \end_layout
 
 \begin_layout Standard
-
-\family typewriter
 $receipt_titleLength = 100;
 \end_layout
 
 \begin_layout Standard
 
-\family typewriter
 \lang bahasa
 ?>
 \end_layout

@@ -155,28 +155,23 @@ Update di Senayan5 (MERANTI):
 \end_layout
 
 \begin_layout Itemize
-
-\family typewriter
 Add: Template Admin dan OPAC
 \end_layout
 
 \begin_layout Itemize
 
-\family typewriter
 \lang bahasa
 Add: Penjumlahan denda pada menu sirkulasi
 \end_layout
 
 \begin_layout Itemize
 
-\family typewriter
 \lang bahasa
 Add: SRU copy cataloging
 \end_layout
 
 \begin_layout Itemize
 
-\family typewriter
 \lang bahasa
 Add: OAI/PMH
 \end_layout
