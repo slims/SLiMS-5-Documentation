@@ -59,13 +59,13 @@ Ketika anda masuk ke halaman admin SLiMS, pertama kali yang ada lihat adalah
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename image/home.png
-	scale 30
+	scale 40
 
 \end_inset
 
@@ -102,7 +102,7 @@ Pada tampilan Home diatas, pada sebelah kiri terdapat 5 Menu.
  dan Pengembalian Kilat merupakan bagian dari modul Sirkulasi.
  Tambah Anggota merupakan bagian dari modul Membership
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Untuk mempelajari menu-menu ini silakan menuju bagian Modul terkait.

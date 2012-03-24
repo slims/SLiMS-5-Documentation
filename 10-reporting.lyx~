@@ -914,7 +914,7 @@ Berisi laporan/daftar sejarah peminjaman perpustakaan.
  ID/Member Name, atau dengan menampilkan fasilitas filter lainnya.
  Caranya dengan klik 
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -933,7 +933,7 @@ Show More Filter Options
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -967,6 +967,21 @@ Laporan Loan History
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Fitur ini juga mengediakan fasilitas unduh file dalam bentuk spreadsheet.
+ File dapat didapatkan dengan klik 
+\begin_inset Quotes eld
+\end_inset
+
+Export to spreadsheet format
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section

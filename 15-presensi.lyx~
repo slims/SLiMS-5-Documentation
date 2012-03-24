@@ -105,8 +105,9 @@ Tampilan Visitor Counter
 \end_layout
 
 \begin_layout Standard
-Pengunjung perpustakaan dibedakan menjadi 2; Anggota yang sudah terdaftar
- dan pengunjung yang bukan anggota/tidak terdaftar.
+Pengunjung perpustakaan dibedakan menjadi 3; Anggota yang sudah terdaftar
+ dan masih aktif, anggota terdaftar dan tidak aktif (habis masa berlaku
+ kartu anggota) dan pengunjung yang bukan anggota/tidak terdaftar.
 \end_layout
 
 \begin_layout Standard
@@ -114,6 +115,8 @@ Jika sudah terdaftar, maka pengunjung cukup menuliskan Member ID pada kolom
  atas, kemudian tekan Enter atau klik Add.
  Maka data sudah tersimpan 1 x kunjungan lengkap dengan jam dan tanggal
  kunjung.
+ Jika anggota tidak aktif (tapi terdaftar), maka sistem akan memberitahukan
+ bahwa masa keanggotaan anggota sudah expired.
  Namun jika bukan anggota terdaftar, maka harus secara manual menuliskan
  Nama dan Institusi (wajib).
 \end_layout

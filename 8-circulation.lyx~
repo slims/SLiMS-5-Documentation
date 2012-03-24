@@ -98,7 +98,7 @@ Untuk melakukan transaksi melalui Member ID (ID anggota).
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -106,7 +106,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/sirk-mulai.png
-	scale 80
+	scale 40
 
 \end_inset
 
@@ -286,7 +286,7 @@ Untuk melakukan pengembalian dengan menggunakan Item Id.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -294,6 +294,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/sirk-quick.png
+	scale 60
 
 \end_inset
 
@@ -328,7 +329,7 @@ QuickReturn
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -336,7 +337,7 @@ status open
 \lang bahasa
 \begin_inset Graphics
 	filename image/sirk-quickreturn-indra.png
-	scale 60
+	scale 40
 
 \end_inset
 
@@ -388,7 +389,7 @@ Merupakan fasilitas untuk mendefinisikan aturan peminjaman yang didasarkan
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -396,6 +397,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/sirk-loanrules.png
+	scale 35
 
 \end_inset
 
@@ -517,7 +519,7 @@ Berisi data transaksi yang pernah dilakukan.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -525,7 +527,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/sirk-loanhys.png
-	scale 120
+	scale 40
 
 \end_inset
 
@@ -579,7 +581,7 @@ Merupakan fasilitas untuk mengetahui anggota-anggota dengan status terlambat.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -587,7 +589,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/sirk-loanover.png
-	scale 80
+	scale 35
 
 \end_inset
 

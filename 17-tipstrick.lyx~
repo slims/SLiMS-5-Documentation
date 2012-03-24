@@ -96,16 +96,14 @@ Pastikan OPAC SLiMS dapat diakses melalui internet
 \end_layout
 
 \begin_layout Enumerate
-Kirimkan url service OAI-PMH kepada yang berkepentingan.
+Sampaikan url service OAI-PMH kepada yang berkepentingan.
  Url tersebut adalah: 
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
-http://namadomain
-slims
-\lang english
-/oai.php?verb=ListRecords&metadataPrefix=oai_dc
+
+http://namadomainslims/oai.php?verb=ListRecords&metadataPrefix=oai_dc
 \end_layout
 
 \end_inset
@@ -120,7 +118,7 @@ slims
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -128,7 +126,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/tips-oai-detail.png
-	scale 60
+	scale 40
 
 \end_inset
 
@@ -3630,7 +3628,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename image/template_default.png
-	scale 30
+	scale 45
 
 \end_inset
 

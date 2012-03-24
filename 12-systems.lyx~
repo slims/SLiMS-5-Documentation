@@ -755,7 +755,7 @@ Set Holiday
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -763,7 +763,6 @@ status open
 \lang bahasa
 \begin_inset Graphics
 	filename image/sys-addspechol.png
-	scale 70
 
 \end_inset
 
@@ -823,7 +822,7 @@ Merupakan fasilitas untuk membuat barcode (kode batang).
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -831,7 +830,6 @@ status open
 \lang bahasa
 \begin_inset Graphics
 	filename image/sys-barc-awal.png
-	scale 80
 
 \end_inset
 
@@ -866,7 +864,7 @@ Form untuk membuat barcode
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -967,7 +965,7 @@ Merupakan menu untuk melihat rekaman proses yang dilakukan oleh Senayan.
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -975,7 +973,6 @@ status open
 \lang bahasa
 \begin_inset Graphics
 	filename image/sys-log.png
-	scale 50
 
 \end_inset
 

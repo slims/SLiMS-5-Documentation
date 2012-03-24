@@ -1,4 +1,4 @@
-#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -65,8 +65,8 @@ I have always imagined that Paradise will be a kind of library.
 \begin_layout Standard
 
 \lang bahasa
-Modul Stock Take merupakan fasilitas yang ada di Senayan untuk membantu
- para pustakawan melakukan kegiatan stock opname.
+Modul Stock Take merupakan fasilitas yang ada di SLiMS untuk membantu para
+ pustakawan melakukan kegiatan stock opname.
  Ketika proses stock opname dimulai, semua koleksi kecuali yang sedang dipinjam
  (berstatus on loan) akan dianggap hilang, lalu masuk ke dalam menu current
  lost item sampai koleksi yang bersangkutan di cek pada proses stock take.
@@ -97,7 +97,7 @@ Berisi laporan stock opname yang telah dilakukan.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -204,7 +204,7 @@ Classification Mengacu ke sub menu class pada modul Bibliography.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -212,7 +212,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/stocktake_initilaize.png
-	scale 80
+	scale 60
 
 \end_inset
 
@@ -247,7 +247,7 @@ Initialize
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -255,7 +255,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/stocktake_initialized.png
-	scale 80
+	scale 50
 
 \end_inset
 
@@ -330,7 +330,7 @@ e oleh semua user yang melakukan stocktake.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -338,7 +338,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/stocktake_current3.png
-	scale 110
+	scale 50
 
 \end_inset
 
@@ -388,7 +388,7 @@ Menu ini untuk melihat hasil dari kegiatan stocke take yang telah dilakukan.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -396,6 +396,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/stocktake_report1.png
+	scale 50
 
 \end_inset
 
@@ -453,7 +454,7 @@ Missing
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -461,6 +462,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/stocktake_finish.png
+	scale 70
 
 \end_inset
 
@@ -564,7 +566,7 @@ Fungsi menu ini adalah untuk mengetahui rekaman (Log) saat melakukan proses
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -572,6 +574,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/stocktake_log.png
+	scale 55
 
 \end_inset
 
@@ -624,7 +627,7 @@ ya proses stock take, maka untuk menghasilkan perubahan pada data bibliografi
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -632,6 +635,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/stocktake_resyncronize.png
+	scale 70
 
 \end_inset
 
@@ -681,7 +685,7 @@ Menu ini digunakan untuk melakukan stock take otomatis dengan memanfaatkan
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -689,6 +693,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/stock-fileuploadlist.png
+	scale 80
 
 \end_inset
 
@@ -723,7 +728,7 @@ Contoh File .txt untuk Upload List
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -731,6 +736,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/stock-uploadlist.png
+	scale 70
 
 \end_inset
 

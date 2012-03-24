@@ -116,13 +116,13 @@ Subject* Diisikan dengan topik/subyek, kode klasifikasi, tipe subjek, authority
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename image/master-subjec-new.png
-	scale 60
+	scale 65
 
 \end_inset
 
@@ -235,13 +235,13 @@ Kedua fitur ini digunakan untuk memfilter pengarang/author serta subyek
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename image/master-orphaned.png
-	scale 80
+	scale 90
 
 \end_inset
 

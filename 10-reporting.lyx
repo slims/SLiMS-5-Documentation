@@ -96,7 +96,7 @@ Berisi informasi total judul koleksi, total item, total item yang sedang
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -156,7 +156,7 @@ Berisi informasi seputar peminjaman.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -214,7 +214,7 @@ Berisi informasi keanggotaan, yaitu: total anggota yang terdaftar, total
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -274,7 +274,7 @@ Mulai Senayan3-stable14, ketiga jenis laporan ini dilengkapi dengan fitur
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -317,7 +317,7 @@ Show in chart/plot
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -504,7 +504,7 @@ Show More Filter Options
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -512,7 +512,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/rep-title.png
-	scale 90
+	scale 50
 
 \end_inset
 
@@ -603,7 +603,7 @@ Hide Filter Option
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -611,7 +611,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/rep-item.png
-	scale 50
+	scale 70
 
 \end_inset
 
@@ -719,7 +719,7 @@ Merupakan laporan peminjaman berdasar Klasifikasi.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -728,6 +728,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/loanbyclass2.png
+	scale 60
 
 \end_inset
 
@@ -793,7 +794,7 @@ Berisi laporan/daftar anggota perpustakaan.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -801,7 +802,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/rep-member.png
-	scale 50
+	scale 45
 
 \end_inset
 
@@ -933,7 +934,7 @@ Show More Filter Options
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -941,7 +942,7 @@ status collapsed
 \lang bahasa
 \begin_inset Graphics
 	filename image/rep-loanhys.png
-	scale 30
+	scale 40
 
 \end_inset
 
@@ -1079,7 +1080,7 @@ status open
 \lang bahasa
 \begin_inset Graphics
 	filename image/rep_staffactv.png
-	scale 45
+	scale 40
 	rotateOrigin centerTop
 
 \end_inset
@@ -1136,7 +1137,7 @@ status open
 \lang bahasa
 \begin_inset Graphics
 	filename image/rep-visit stat.png
-	scale 50
+	scale 55
 	rotateOrigin centerTop
 
 \end_inset
