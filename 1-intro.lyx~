@@ -238,12 +238,6 @@ Add: Brazilian Portuguise language
 \begin_layout Itemize
 
 \lang bahasa
-Add: orphaned publisher and place
-\end_layout
-
-\begin_layout Itemize
-
-\lang bahasa
 Fixed: Bug pada eksport import bibliografi dan item
 \end_layout
 
