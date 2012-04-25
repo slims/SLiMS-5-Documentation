@@ -161,16 +161,6 @@ filename "5-install2.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "5-install3.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
 filename "5.1-home.lyx"
 
 \end_inset
