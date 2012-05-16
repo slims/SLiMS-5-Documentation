@@ -395,7 +395,7 @@ status collapsed
 
 \lang bahasa
 \begin_inset Graphics
-	filename image/hotkey-shift.png
+	filename /home/work/github/s5-doc-id/image/sirk-mulai.png
 	scale 35
 
 \end_inset
@@ -411,7 +411,7 @@ status collapsed
 \begin_layout Plain Layout
 
 \lang bahasa
-Shortcut Modul 
+Proses Sirkulasi 
 \end_layout
 
 \end_inset
@@ -439,7 +439,7 @@ status collapsed
 
 \lang bahasa
 \begin_inset Graphics
-	filename image/hotkey-shift.png
+	filename /home/work/github/s5-doc-id/image/sirk-mulai.png
 	scale 35
 
 \end_inset
@@ -455,7 +455,7 @@ status collapsed
 \begin_layout Plain Layout
 
 \lang bahasa
-Hotkey Submodul
+Proses Sirkulasi 
 \end_layout
 
 \end_inset
