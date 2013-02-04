@@ -63,7 +63,7 @@
 \begin_layout Title
 
 \lang bahasa
-Documentasi SLiMS
+Dokumentasi SLiMS
 \begin_inset Newline newline
 \end_inset
 
@@ -206,64 +206,93 @@ Update di Senayan5 (MERANTI):
 
 \begin_layout Itemize
 
-\family typewriter
-Add: Template admin dan opac baru
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
 \lang bahasa
-Add: Fitur Z39.50 SRU: Search/Retrieval via URL
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-\lang bahasa
-Add: Fitur OAI/PMH
+Add: Template admin dan opac baru 
 \end_layout
 
 \begin_layout Itemize
 
 \lang bahasa
-Add: Penambahan Statement of Responbility pada bibliografi
+Add: Fitur Z39.50 SRU: Search/Retrieval via URL 
 \end_layout
 
 \begin_layout Itemize
 
 \lang bahasa
-Add: Item(s) code batch generator
+Add: Fitur OAI/PMH Add: Penambahan Statement of Responbility pada bibliografi
+ 
 \end_layout
 
 \begin_layout Itemize
 
 \lang bahasa
-Add: Bibliographic Classification 
+Add: Item(s) code batch generator Add: Bibliographic Classification 
 \end_layout
 
 \begin_layout Itemize
 
 \lang bahasa
-Add: Pencetakan kartu Katalog
+Add: Pencetakan kartu Katalog 
 \end_layout
 
 \begin_layout Itemize
 
 \lang bahasa
-Add: Brazilian Portuguise language
+Fixed: Bug pada eksport import bibliografi dan item 
 \end_layout
 
 \begin_layout Itemize
 
 \lang bahasa
-Add: orphaned publisher and place
+Add: Search result clustering
 \end_layout
 
 \begin_layout Itemize
 
 \lang bahasa
-Fixed: Bug pada eksport import bibliografi dan item
+Add: Brazilian Portuguise language 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: orphaned publisher and place 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: Import MARC data 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: foto anggota langsung dari aplikasi slims 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: shortcut untuk modul dan sub modul 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: tampilan mobile 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: setting hitung denda hari libur 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: zend barcode
 \end_layout
 
 \begin_layout Standard
@@ -455,7 +484,7 @@ status collapsed
 \begin_layout Plain Layout
 
 \lang bahasa
-Hotkey Submodul
+Shortcut Submodul
 \end_layout
 
 \end_inset
@@ -466,6 +495,97 @@ Hotkey Submodul
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Selain itu, juga ada shortcut untuk menu di submodul sirkulasi.
+ Yaitu (L), (C), (R),(F),(H).
+ Cara mengaksesnya adalah dengan Alt+Shift+(L) dan seterusnya.
+ Cara ini jika anda menggunakan Firefox.
+ Untuk browser lain, jika cara tersebut tidak berhasil dapat dengan menekan
+ Alt+(L) dan seterusnya (tanpa shift).
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/cir-shortcut.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Shortcut Sirkulasi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang bahasa
+Browser
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Rekomendai browser/perambah web untuk SLiMS Meranti adalah:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang bahasa
+Firefox 10 ke atas
+\end_layout
+
+\begin_layout Enumerate
+
+\lang bahasa
+Chrome 10 ke atas
+\end_layout
+
+\begin_layout Enumerate
+
+\lang bahasa
+IE 9 ke atas
+\end_layout
+
+\begin_layout Enumerate
+
+\lang bahasa
+Opera 10 ke atas
 \end_layout
 
 \end_body

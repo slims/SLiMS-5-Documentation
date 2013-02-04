@@ -396,7 +396,7 @@ Mulai SLiMS-5, SLiMS mempunyai fitur baru terkait membership.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -429,6 +429,30 @@ Fitur Foto pada Membership
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Untuk dapat mengambil foto, lakukan langkah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+pastikan browser anda support flash player
+\end_layout
+
+\begin_layout Enumerate
+klik load camera
+\end_layout
+
+\begin_layout Enumerate
+klik capture
+\end_layout
+
+\begin_layout Enumerate
+klik use!!!
+\end_layout
+
+\begin_layout Enumerate
+jangan lupa menentukan format file dan ukurannya
 \end_layout
 
 \begin_layout Standard
